@@ -8,6 +8,8 @@ $et = $_POST['endTime'];
 
 include("dbcon.php");
 
+
+
 $sql = "insert into booking(memberid,courtid,bookingDate,starttime,endtime) values ('$mid','$cid','$bd','$st','$et')";
 
 echo $sql;
